@@ -1,19 +1,32 @@
-.header-color{background: #54b3b6;}
+@font-face {
+  font-family: HelveticaLight;
+  src: url(./helvetica_light.ttf);
+}
+body, html {
+  font-family: 'HelveticaLight' !important;
+}
+.font-normal {
+  font-family: 'Helvetica' !important;
+}
+.header-color{background: #15B6B8;}
 
-.section{background :#afe2e4;}
-
-
-.anch{padding: 4px 10px 1px 6px;}
-
+.section{background :#A1E5E5;}
 
 .border-green {
     border-color: rgb(132, 171, 71) !important;
 }
+.border-red {
+  border-color: #E13429 !important;
+}
+.text-red {
+  color: #E13429 !important;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255,0.7) !important;
+}
 .bg-leaf {
-  min-height:100%;
-  background:url('../palm.png');
-  background-size:cover;
-  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.95);
-  background-position-x:center;
-  background-position-y: bottom;
+  height:10%;
+  background:url('../palm.png') no-repeat center center;
+  background-size: 150% 170%;
+  box-shadow:inset 0 0 0 2000px rgb(251, 249, 246, 0.98);
 }
